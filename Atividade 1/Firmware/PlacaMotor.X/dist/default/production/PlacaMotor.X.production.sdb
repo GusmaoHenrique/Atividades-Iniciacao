@@ -1,0 +1,263 @@
+[p GLOBOPT AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"32 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"11 C:\Users\T-Gamer\Desktop\Rikao\FATEC\PROJETO FATEC\Grupo Fatec ECU\Firmware\PlacaMotor.X\functions.c
+[v _InitConfig InitConfig `(v  1 e 1 0 ]
+"26
+[v _InitTimer0 InitTimer0 `(v  1 e 1 0 ]
+"39
+[v _adc_read adc_read `(i  1 e 2 0 ]
+"17 C:\Users\T-Gamer\Desktop\Rikao\FATEC\PROJETO FATEC\Grupo Fatec ECU\Firmware\PlacaMotor.X\main.c
+[v _my_isr_routine my_isr_routine `IIH(v  1 e 1 0 ]
+"39
+[v _main main `(v  1 e 1 0 ]
+"2705 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S26 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"2736
+[s S35 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S44 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S47 . 1 `S26 1 . 1 0 `S35 1 . 1 0 `S44 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES47  1 e 1 @3971 ]
+"3427
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"6510
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6666
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S150 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6710
+[s S153 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S157 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S164 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S167 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S170 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S173 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S176 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S179 . 1 `S150 1 . 1 0 `S153 1 . 1 0 `S157 1 . 1 0 `S164 1 . 1 0 `S167 1 . 1 0 `S170 1 . 1 0 `S173 1 . 1 0 `S176 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES179  1 e 1 @4034 ]
+"6792
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"6799
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S123 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"8089
+[s S130 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S134 . 1 `S123 1 . 1 0 `S130 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES134  1 e 1 @4053 ]
+"8139
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"9741
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"10269
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"10314
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"10716
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"10722
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"10743
+[v _T0SE T0SE `VEb  1 e 0 @32428 ]
+"10812
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"10815
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"10821
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"14 C:\Users\T-Gamer\Desktop\Rikao\FATEC\PROJETO FATEC\Grupo Fatec ECU\Firmware\PlacaMotor.X\main.c
+[v _tempoInt tempoInt `ui  1 e 2 0 ]
+"15
+[v _dente dente `i  1 e 2 0 ]
+"39
+[v _main main `(v  1 e 1 0 ]
+{
+"45
+[v main@tempo tempo `f  1 a 3 45 ]
+"44
+[v main@adx adx `f  1 a 3 42 ]
+"59
+} 0
+"39 C:\Users\T-Gamer\Desktop\Rikao\FATEC\PROJETO FATEC\Grupo Fatec ECU\Firmware\PlacaMotor.X\functions.c
+[v _adc_read adc_read `(i  1 e 2 0 ]
+{
+[v adc_read@canal canal `uc  1 a 1 wreg ]
+"41
+[v adc_read@result result `i  1 a 2 5 ]
+"39
+[v adc_read@canal canal `uc  1 a 1 wreg ]
+"42
+[v adc_read@canal canal `uc  1 a 1 7 ]
+"50
+} 0
+"44 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 37 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 41 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 36 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 27 ]
+"73
+} 0
+"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+{
+[v ___ftsub@f1 f1 `f  1 p 3 21 ]
+[v ___ftsub@f2 f2 `f  1 p 3 24 ]
+"26
+} 0
+"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 20 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 19 ]
+[v ___ftadd@sign sign `uc  1 a 1 18 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 9 ]
+[v ___ftadd@f2 f2 `f  1 p 3 12 ]
+"148
+} 0
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 19 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 23 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 22 ]
+[v ___ftmul@exp exp `uc  1 a 1 18 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 9 ]
+[v ___ftmul@f2 f2 `f  1 p 3 12 ]
+"157
+} 0
+"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 34 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 38 ]
+[v ___ftdiv@exp exp `uc  1 a 1 37 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 33 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 24 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 27 ]
+"86
+} 0
+"32 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 12 ]
+"32
+[v ___awtoft@c c `i  1 p 2 9 ]
+"42
+} 0
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 1 ]
+[v ___ftpack@exp exp `uc  1 p 1 4 ]
+[v ___ftpack@sign sign `uc  1 p 1 5 ]
+"86
+} 0
+"26 C:\Users\T-Gamer\Desktop\Rikao\FATEC\PROJETO FATEC\Grupo Fatec ECU\Firmware\PlacaMotor.X\functions.c
+[v _InitTimer0 InitTimer0 `(v  1 e 1 0 ]
+{
+"38
+} 0
+"11
+[v _InitConfig InitConfig `(v  1 e 1 0 ]
+{
+"25
+} 0
+"17 C:\Users\T-Gamer\Desktop\Rikao\FATEC\PROJETO FATEC\Grupo Fatec ECU\Firmware\PlacaMotor.X\main.c
+[v _my_isr_routine my_isr_routine `IIH(v  1 e 1 0 ]
+{
+"38
+} 0
